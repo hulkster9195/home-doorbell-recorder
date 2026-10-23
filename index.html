@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Home Doorbell Recorder: a personal app connecting a Nest doorbell to a home video recorder.">
+<title>Home Doorbell Recorder</title>
+<style>
+  :root { --bg: #ffffff; --text: #1f2328; --muted: #59636e; --link: #0969da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0d1117; --text: #e6edf3; --muted: #9198a1; --link: #4493f8; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 1.8em; margin: 0 0 4px; }
+  .tagline { color: var(--muted); margin: 0 0 32px; }
+  a { color: var(--link); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 0.9em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Home Doorbell Recorder</h1>
+  <p class="tagline">A personal app connecting my Nest doorbell to my home recorder.</p>
+
+  <h2>What it does</h2>
+  <p>Home Doorbell Recorder is a small, private, non-commercial app for one household. It uses
+  Google's Smart Device Management API to receive the live video stream from the app owner's
+  own Nest doorbell, so that a video recorder running on a computer at home can save short
+  clips when someone arrives at the door.</p>
+
+  <h2>Who it is for</h2>
+  <p>Only the app owner. It is not offered to the public, there is nothing to sign up for,
+  and it does not access anyone else's devices or accounts.</p>
+
+  <h2>What it accesses</h2>
+  <p>With the owner's permission, granted through Google's sign-in screen, the app reads the
+  live video from the one doorbell the owner chose to share. It does not control the doorbell
+  or change any settings.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Home Doorbell Recorder is a personal project and is not affiliated with or endorsed by Google.</footer>
+</main>
+</body>
+</html>
